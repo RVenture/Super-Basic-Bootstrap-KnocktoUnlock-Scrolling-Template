@@ -1,0 +1,73 @@
+html,body{
+    overflow:hidden;
+}
+
+@font-face {
+    font-family: proximaNova;
+    src: url('../fonts/proximanova.ttf');
+}
+
+.noscroll {
+	overflow: hidden;
+}
+
+.container-fluid {
+padding-right: 0px;
+padding-left: 0px;
+margin-right: auto;
+margin-left: auto;
+}
+
+.full {
+	width: 1440px;
+	height: 779px;
+}
+
+.fullscreen1 {
+	background-color: grey;
+}
+
+.logo {
+	
+}
+
+.fullscreen2 {
+	background-color: green;
+}
+
+.fullscreen3 {
+	background-color: red;
+}
+
+.fullscreen4 {
+	background-color: purple;
+}
+
+.all {
+
+}
+
+.top {
+	position: fixed;
+	top: 0;
+}
+
+#overlay {
+	top:0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	position: fixed;
+	background-color: transparent;
+}
+
+.moving {
+	background-color: blue;
+}
+
+p {
+	color: white;
+	font-family: proximaNova;
+	font-size: 400px;
+	text-align: center;
+}
